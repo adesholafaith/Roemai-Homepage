@@ -356,7 +356,7 @@ footer {
 
   footer {
     margin: 0 -2rem;
-    margin-top: -4rem;
+    margin-top: -1rem;
   }
 }
 
@@ -519,6 +519,7 @@ footer {
   .panel {
     border-radius: 10px;
     height: 438px;
+    margin-top: -3rem;
   }
 
    @keyframes typing {
@@ -554,6 +555,7 @@ footer {
   footer {
     font-size: 12px;
     gap: 8px;
+    margin-top: 3rem;
   }
 
   .footer-img {
@@ -603,3 +605,4 @@ footer {
     font-size: 13px;
   }
 }
+
