@@ -453,6 +453,7 @@ footer {
 
   .hero {
     margin: 2rem auto;
+    margin-top: -1rem;
     max-width: 300px;
   }
 
@@ -544,3 +545,4 @@ footer {
     font-size: 13px;
   }
 }
+
