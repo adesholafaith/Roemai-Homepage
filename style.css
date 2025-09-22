@@ -479,7 +479,7 @@ footer {
   .hero {
     max-width: 355px;
     margin: 5rem auto;
-    margin-bottom: 11rem;
+    margin-bottom: 4rem;
   }
 
   .panel {
@@ -532,7 +532,7 @@ footer {
     font-size: 12px;
     gap: 8px;
     margin: 0;
-    margin-bottom: -7rem;
+    margin-bottom: 8rem;
   }
 
   .footer-img {
@@ -582,6 +582,7 @@ footer {
     font-size: 13px;
   }
 }
+
 
 
 
