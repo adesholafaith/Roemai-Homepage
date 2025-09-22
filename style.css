@@ -1,4 +1,4 @@
-   :root {
+ :root {
   --muted: #2e2f31;
   --accent: #3fd67e;
   --glass: rgba(255, 255, 255, 0.04);
@@ -178,7 +178,7 @@ header {
   transition: opacity 2s ease-in-out;
 }
 
-.robot-image-2 {
+.robot-image {
   display: none;
 }
 
@@ -354,12 +354,6 @@ footer {
     padding: 0 60px;
   }
 
-  .robot-image {
-    width: 10rem;
-    height: 11rem;
-    right: -3.1rem;
-  }
-
   footer {
     margin: 0 -2rem;
     margin-top: -2rem;
@@ -401,15 +395,14 @@ footer {
     animation: typing 3s steps(17, end) forwards,
                blink 0.7s step-end infinite;
   }
-  
 
   .hero {
-    margin: 3rem auto;
+    margin: 11rem auto;
     max-width: 600px;
   }
 
   .panel {
-    height: auto;
+    height: 50vh;
     padding: 12px;
   }
 
@@ -429,26 +422,29 @@ footer {
   }
 
   .robot-image {
+    display: block;
+    width: 18rem;
+    margin: 0 auto;
+  }
+
+  .robot1 {
     display: none;
   }
 
-  .robot-image-2 {
-    display: block;
-    width: 14rem;
-    margin: 0 auto;
-    margin-top: -2rem;
+  .robot2 {
+    display: none;
   }
 
   footer {
-    margin-top: -1rem;
+    margin-top: 10rem;
     text-align: center;
   }
 }
 
-/* 📲 Mobile Phones */
+/* Mobile Phones */
 @media (max-width: 480px) {
   .header-logo {
-    height: 1rem;
+    height: 1.5rem;
   }
 
   .text {
@@ -463,7 +459,7 @@ footer {
   .frame {
     width: 240px;
     padding: 25px;
-    margin-bottom: 30rem;
+    margin-bottom: 6rem;
   }
 
   .text {
@@ -481,14 +477,14 @@ footer {
   }
 
   .hero {
-    max-width: 300px;
+    max-width: 355px;
     margin: 5rem auto;
-    margin-bottom: 8rem;
+    margin-bottom: 11rem;
   }
 
   .panel {
     border-radius: 10px;
-    height: 438px;
+    height: 520px;
 
   }
 
@@ -518,14 +514,25 @@ footer {
     margin: 10px 0;
   }
 
-  .robot-image-2 {
-    margin-top: -1rem;
+  .robot-image {
+    display: block;
+    width: 18rem;
+    margin: 0 auto;
+  }
+
+  .robot2 {
+    display: none;
+  }
+
+  .robot1 {
+    display: none;
   }
 
   footer {
     font-size: 12px;
     gap: 8px;
-    margin-bottom: 25rem;
+    margin: 0;
+    margin-bottom: -7rem;
   }
 
   .footer-img {
@@ -533,7 +540,7 @@ footer {
   }
 }
 
-/* Very Small Devices (old phones, <360px wide) */
+/* Very Small Devices */
 @media (max-width: 360px) {
   .frame {
     width: 200px;
