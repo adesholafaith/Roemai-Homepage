@@ -2,13 +2,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const enterBtn = document.getElementById("enterBtn");
   const enterScreen = document.getElementById("enterScreen");
   const container = document.getElementById("container");
+  const footer = document.getElementById("footer");
   const robot1 = document.getElementById("robot1");
   const robot2 = document.getElementById("robot2");
+
+
 
   enterBtn.addEventListener("click", () => {
     // hide welcome screen, show container
     enterScreen.style.display = "none";
     container.style.display = "block";
+    footer.style.display = "block";
 
     // fade in robot1 after a short delay
     setTimeout(() => {
