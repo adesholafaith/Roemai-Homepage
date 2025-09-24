@@ -19,8 +19,8 @@ body {
     font-family: monospace;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    
+    align-items: center;
+    justify-content: center;
     background: #fff;
 }
 
@@ -28,10 +28,6 @@ header {
   position: absolute;
   top: 1.5rem;
   left: 2rem;
-}
-
-header, footer {
-  flex-shrink: 0;
 }
 
 .header-logo {
@@ -142,9 +138,6 @@ button:hover {
 
 .container {
   display: none;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
 }
 
 .hero {
@@ -584,3 +577,4 @@ footer {
     font-size: 13px;
   }
 }
+
