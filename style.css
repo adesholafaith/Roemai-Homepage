@@ -484,7 +484,7 @@ footer {
   
   .panel {
     border-radius: 10px;
-    height: 50vh;
+    height: 55vh;
   }
 
    @keyframes typing {
@@ -584,6 +584,7 @@ footer {
     font-size: 13px;
   }
 }
+
 
 
 
