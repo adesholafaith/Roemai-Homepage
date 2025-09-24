@@ -6,12 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const robot1 = document.getElementById("robot1");
   const robot2 = document.getElementById("robot2");
 
-
-
   enterBtn.addEventListener("click", () => {
     // hide welcome screen, show container
     enterScreen.style.display = "none";
-    container.style.display = "block";
+    container.style.display = "flex";
     footer.style.display = "block";
 
     // fade in robot1 after a short delay
@@ -41,4 +39,3 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 4000); // swap every 4s
   });
 });
-
