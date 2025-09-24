@@ -439,7 +439,7 @@ footer {
 }
 
 /* Mobile Phones */
-@media (max-width: 430px) {
+@media (max-width: 480px) {
   .header-logo {
     height: 1.5rem;
   }
@@ -474,8 +474,13 @@ footer {
 
   .hero {
     max-width: 355px;
+    margin-bottom: 5rem;
   }
 
+  .robot-card {
+    padding: 18px 0;
+  }
+  
   .panel {
     border-radius: 10px;
 
@@ -577,4 +582,5 @@ footer {
     font-size: 13px;
   }
 }
+
 
