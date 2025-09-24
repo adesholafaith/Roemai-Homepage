@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   enterBtn.addEventListener("click", () => {
     // hide welcome screen, show container
     enterScreen.style.display = "none";
-    container.style.display = "flex";
+    container.style.display = "block";
     footer.style.display = "block";
 
     // fade in robot1 after a short delay
@@ -39,3 +39,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 4000); // swap every 4s
   });
 });
+
