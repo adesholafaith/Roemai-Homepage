@@ -456,6 +456,7 @@ footer {
   .frame {
     width: 240px;
     padding: 25px;
+    margin-bottom: 6rem;
   }
 
   .text {
@@ -474,7 +475,7 @@ footer {
 
   .hero {
     max-width: 355px;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
   }
 
   .robot-card {
@@ -532,7 +533,8 @@ footer {
   }
 
   .footer {
-    gap: 3rem;
+    gap: 2.5rem;
+    font-size: 11px;
   }
 
   .footer-img {
@@ -582,5 +584,6 @@ footer {
     font-size: 13px;
   }
 }
+
 
 
